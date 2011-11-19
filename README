@@ -1,10 +1,10 @@
-Traits
-  class_uses
-Closure binding 
-  Callable type hint
+Class::{expr}() syntax
+Binary numbers format
 Short array syntax
+Array dereferencing
 Member access on construction
   (new Foo)->bar();
-Binary numbers format
-Class::{expr}() syntax
-Array dereferencing
+Closure binding 
+  Callable type hint
+Traits
+  class_uses
