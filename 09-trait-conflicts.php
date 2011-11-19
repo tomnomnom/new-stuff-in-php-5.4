@@ -29,3 +29,5 @@ class Webpage {
 
 $homepage = new Webpage();
 $homepage->output("I <3 cookies", "It's really true.");
+
+var_dump(class_uses($homepage));
