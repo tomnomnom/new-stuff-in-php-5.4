@@ -1,11 +1,3 @@
+= PHP 5.4 - What I'm excited about = 
 
-Class::{expr}() syntax
-Binary numbers format
-Short array syntax
-Array dereferencing
-Member access on construction
-  (new Foo)->bar();
-Closure binding 
-  Callable type hint
-Traits
-  class_uses
+Code from my PHP Leeds talk from 2011-11-21.
