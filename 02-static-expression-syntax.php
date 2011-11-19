@@ -10,4 +10,4 @@ class GetterThingy {
 }
 
 $dataLocation = 'file';
-echo GetterThingy::{'getFrom'.$dataLocation}();
+echo GetterThingy::{'getFrom'.$dataLocation}(); // Got from file
