@@ -4,11 +4,11 @@ var_dump(0b01010011); // int(83)
 
 // Handy for bitmasks and things!
 class Logger {
-  const DEBUG = 0b0001;
-  const INFO  = 0b0010;
-  const WARN  = 0b0100;
-  const ERR   = 0b1000;
-  const ALL   = 0b1111;
+  const DEBUG = 0b0001; // 1
+  const INFO  = 0b0010; // 2
+  const WARN  = 0b0100; // 4
+  const ERR   = 0b1000; // 8
+  const ALL   = 0b1111; // 15
 
   public function __construct($levels){
     $this->levels = $levels;
